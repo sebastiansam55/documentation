@@ -76,6 +76,10 @@ The Keyboard input devices handle all of the regular key events, and the Functio
 
 ## Function Keys
 On the Windows layout (pressing `FN+F[1-12]`):
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 | Key | Key Signal | Scan Code | Device | Purpose |
 | :-: | :--------: | :-------: | :----: | :-----: |
 | `FN+F1` | `KEY_BRIGHTNESSDOWN` | `224` | Function input | Screen brightness |
@@ -92,6 +96,10 @@ On the Windows layout (pressing `FN+F[1-12]`):
 | `FN+F12` | `KEY_VOLUMEUP` | `115` | Function input | Volume control |
 
 On the MacOS layout (pressing `FN+F[1-12]`):
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 | Key | Key Signal | Scan Code | Device | Purpose |
 | :-: | :--------: | :-------: | :----: | :-----: |
 | `FN+F1` | `KEY_BRIGHTNESSDOWN` | `224` | Keyboard input | Screen brightness |
@@ -128,7 +136,11 @@ However, according to `evtest` the keyboard has the following LED events.
     Event code 4 (LED_KANA) state 0
 ```
 
+<<<<<<< Updated upstream
 Out of these only LED_CAPSL appears to effect the physical LEDs on the keyboard.
+=======
+Out of these only `LED_CAPSL` appears to effect the physical LEDs on the keyboard.
+>>>>>>> Stashed changes
 
 ## Notes
 All key/scan codes are those as reported by `evtest`, mostly on the wired connection unless otherwise specified.
